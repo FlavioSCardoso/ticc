@@ -1,0 +1,19 @@
+{% extends "app/layout.html" %}
+{% load staticfiles %}
+{% block content %}
+
+<div ng-app="ticc">
+	<div class="jumbotron">
+		<h1>TI Contra a Corrup&ccedil;&atilde;o</h1>
+		<p class="lead">O Brasil est&aacute; cansado desta baderna no governo.</p>
+		<p>
+			Profissionais de Tecnologia da Informa&ccedil;&atilde;o junto com cidad&atilde;os de que levantam a bandeira do <em>Basta de Corrup&ccedil;&atilde;o por um pa&iacute;s melhor</em> podem se associar para
+			cobrar das autoridades o que for necess&aacute;rio para prover um pa&iacute;s digno para a popula&ccedil;&atilde;o que os elegeu.
+		</p>
+	</div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+	<script src="{% static 'app/ticc/ng-ticc.js' %}"></script>
+{% endblock %}

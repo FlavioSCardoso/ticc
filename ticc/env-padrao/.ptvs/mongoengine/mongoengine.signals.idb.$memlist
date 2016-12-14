@@ -1,0 +1,14 @@
+_FakeSignal
+post_bulk_insert
+pre_save_post_validation
+post_save
+__all__
+pre_bulk_insert
+signals_available
+pre_save
+pre_init
+pre_delete
+post_delete
+Namespace
+post_init
+_signals

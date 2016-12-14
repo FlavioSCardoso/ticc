@@ -1,0 +1,5 @@
+partial
+queryset_manager
+QuerySetManager
+__all__
+QuerySet
